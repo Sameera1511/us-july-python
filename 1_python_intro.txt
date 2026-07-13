@@ -1,0 +1,10 @@
+What type of programming language is python?
+    1) Python is programming language.
+    2) Python is General Purpose programming language.
+    3) Python is High Level programming language.
+    4) Python is English like language.
+    5) Python is Dynamically typed programming language.
+    6) Python is case senitive programming language.
+    7) Python is Hybrid programming language.
+    8) Python supports Procedural, functional, object oriented and modular programming paradigms.
+    
