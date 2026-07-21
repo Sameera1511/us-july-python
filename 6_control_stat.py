@@ -103,12 +103,14 @@
 #     => 1 + 125 + 27
     # => 153
 
+# 9474 => 9**4 + 4**4 + 7**4 + 4**4
+
 # number = 100
 # while number <= 1000:
 #     power = len(str(number))
 #     count = 0
 #     total = 0
-#     while count < len(str(number)):
+#     while count < len(str(number)): #3
 #         total += int(str(number)[count]) ** power
 #         count+=1
 #     if total == number:
