@@ -219,3 +219,114 @@ a2 = np.array([4, 5, 6])
 # a4 =np.concatenate((a1[0:2], a2[0:2]))
 # print(a4)
 
+#------------------------------------
+
+# Split Arry:
+
+import numpy as np
+
+# arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+
+# arr1 = arr.reshape(4, 2)
+
+# new_arr1 = np.array_split(arr1, 4)
+# print(new_arr1)
+
+# newarr = np.array_split(arr, 3)
+# print(newarr[0])
+# print(newarr[1])
+# print(newarr[2])
+
+
+#--------------------------------------
+# Array Search:
+
+arr = np.array([1, 2, 3, 4, 5, 4, 4])
+
+# x = np.where(arr==4)
+# print(x)
+
+# y = np.where(arr==2)
+# print(y)
+
+#---
+# arr1 = np.array([10, 14, 93, 41, 8, 7])
+# 2, 3, 5
+
+# x = np.where(arr1%2 != 0)
+# print(x)
+
+# y = np.where(arr1 > 50)
+# print(y)
+
+# z = np.where(arr1%7 != 0)
+# print(z)
+
+#---------------------
+
+# arr2 = np.array([6, 7, 9, 8])
+
+# x = np.searchsorted(arr2, 7)
+# print(x)
+
+# y = np.searchsorted(arr2, 8)
+# print(y)
+
+#-----------------------
+# arr3 = np.array([3, 2, 0, 1])
+
+# print(np.sort(arr3))
+
+
+arr4 = np.array(["banana", "cherry", "apple"])
+# print(np.sort(arr4)[::-1])
+
+# arr5 = sorted(np.sort(arr4), reverse=True)
+# print(arr5)
+
+#-----------------------------
+# arr6 = np.array([True, False, True])
+# print(np.sort(arr6))
+
+#-----------------------------
+
+# arr7 = np.array([
+#     [3, 2, 4],
+#     [5, 0, 1]
+# ])
+
+# print(np.sort(arr7))
+
+#------------------------
+
+# arr8 = np.array([41, 42, 43, 44])
+
+# x = [True, False, True, False]
+
+# newarr = arr8[x]
+# print(newarr)
+
+
+arr9 = np.array([41, 42, 43, 44])
+
+# x = (arr9 > 42)
+# print(arr9[x])
+
+# x = np.array(list(filter(lambda val1: val1 if val1 > 42 else None, arr9)))
+# print(x)
+
+# arr10 = np.array([i for i in arr9 if i > 42])
+# print(arr10)
+
+
+# filter_arr = []
+
+# for i in arr9:
+#     if i > 42:
+#         filter_arr.append(True)
+#     else:
+#         filter_arr.append(False)
+
+# newarr = arr9[filter_arr]
+# print(newarr)
+
