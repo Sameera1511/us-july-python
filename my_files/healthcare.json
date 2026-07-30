@@ -1,0 +1,62 @@
+[
+  {
+    "patient_id": " P001 ",
+    "fullname": "John   Carter",
+    "age": 34,
+    "dob": "1989-05-14",
+    "department": "Cardiology",
+    "doctor": "Dr. Smith",
+    "diagnosis": "Hypertension ",
+    "bill_amount": " 1500 "
+  },
+  {
+    "patient_id": "P002",
+    "fullname": "Mary Johnson",
+    "age": "",
+    "dob": "14/08/1990",
+    "department": "Neurology",
+    "doctor": "Dr. Adams",
+    "diagnosis": "Migraine",
+    "bill_amount": "NaN"
+  },
+  {
+    "patient_id": "P003",
+    "fullname": "Robert Brown",
+    "age": 45,
+    "dob": "1979-11-02",
+    "department": "Orthopedics",
+    "doctor": "Dr. Lee",
+    "diagnosis": " Fracture",
+    "bill_amount": "2200"
+  },
+  {
+    "patient_id": "P004",
+    "fullname": "Emily Davis",
+    "age": 29,
+    "dob": "1995/03/22",
+    "department": "Pediatrics",
+    "doctor": "Dr. Taylor",
+    "diagnosis": "Asthma",
+    "bill_amount": " 1800 "
+  },
+  {
+    "patient_id": "P005",
+    "fullname": "Michael   Johnson",
+    "age": 52,
+    "dob": "30-12-1972",
+    "department": "Oncology",
+    "doctor": "Dr. Wilson",
+    "diagnosis": "Cancer",
+    "bill_amount": ""
+  },
+  {
+    "patient_id": "P006",
+    "fullname": "Sarah Miller",
+    "age": 38,
+    "dob": "1986-09-05",
+    "department": "Dermatology",
+    "doctor": "Dr. Clark",
+    "diagnosis": "Eczema",
+    "bill_amount": "2000"
+  }
+]

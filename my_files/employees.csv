@@ -1,0 +1,11 @@
+id,fullname,age,salary,dob,department,position,Duration
+101," John Doe ",29,5.5000,1997-05-14,IT,Software Engineer,34
+102,"Jane Smith",,62000,14/08/1995,HR,Recruiter,678
+103,"Michael   Johnson",41,72000,1983-11-02,Finance,Senior Analyst,780
+104,"Emily Davis",27, 48000 ,1999-03-22,Marketing,Marketing Associate,610
+105,"Robert Brown",35,NaN,1989-07-30,Operations,Manager,705
+106,"Linda Taylor",30,51000,30-12-1994,IT,Data Scientist,40
+107,"David Wilson",28,58000,1996/02/18,Finance,Accountant,100
+108,"Sarah Miller",,60000,1992-09-05,HR,HR Specialist,840
+109,"Chris Lee",45,83000,1981-01-11,Sales,Sales Director,10
+110,"Anna   Garcia",33,57000,1989-06-25,Marketing,Brand Strategist,25
