@@ -154,7 +154,7 @@ df.fillna({"age": mean_age}, inplace=True)
 # print(median_salary)
 
 mode_salary = df["salary"].mode()[1]
-print(mode_salary)
+# print(mode_salary)
 
 
 # df.fillna({"salary": median_salary}, inplace=True)
@@ -173,6 +173,7 @@ df["dob"] = df["dob"].dt.strftime("%m/%d/%Y")
 #---------------------------------------
 
 df.loc[0, "salary"] = 55000
+df.loc[10, "salary"] = 55000
 # print(df)
 
 #-----------------------
@@ -180,5 +181,19 @@ df.loc[0, "salary"] = 55000
 for index in df.index:
     if df.loc[index, "Duration"] < 500:
         df.loc[index, "Duration"] = 700
+# print(df)
 
-print(df)
+# print(df.duplicated())
+# print("---------------------------------------------------")
+df.drop_duplicates(inplace=True)
+# print(df)
+#---------------------------------
+
+# Data Correlation:
+
+# +ve 1 or +ve 0.9 ==> if column1 value goes up then column2 value will go up.
+# -ve 1 or -ve 0.9 ==> if column vqlue goes up then column2 value will go down.
+df1 = df[["age", "salary"]]
+# print(df1.corr())
+
+#----------------------------------------

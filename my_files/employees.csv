@@ -9,3 +9,5 @@ id,fullname,age,salary,dob,department,position,Duration
 108,"Sarah Miller",,60000,1992-09-05,HR,HR Specialist,840
 109,"Chris Lee",45,83000,1981-01-11,Sales,Sales Director,10
 110,"Anna   Garcia",33,57000,1989-06-25,Marketing,Brand Strategist,25
+101," John Doe ",29,5.5000,1997-05-14,IT,Software Engineer,34
+108,"Sarah Miller",,60000,1992-09-05,HR,HR Specialist,840
